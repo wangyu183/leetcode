@@ -44,7 +44,5 @@ public class ValidPalindrome125 {
         String s2 = "race a car";
         String s3 = "iiiii".
         boolean result = test.isPalindrome(s3);
-        System.out.println("" +    result           + "");
-    }
-    
+		System.out.println(result + "" + "" + "");    }    }    
 }
