@@ -42,7 +42,7 @@ public class ValidPalindrome125 {
         ValidPalindrome125 test = new ValidPalindrome125();
         String s = "A man, a plan, a canal: Panama";
         String s2 = "race a car";
-        String s3 = ".,";
+        String s3 = "iiiii".
         boolean result = test.isPalindrome(s3);
         System.out.println("" +    result           + "");
     }
