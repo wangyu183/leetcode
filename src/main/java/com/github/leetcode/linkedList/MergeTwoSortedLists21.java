@@ -89,11 +89,22 @@ public class MergeTwoSortedLists21 {
         
         l2.next = l4;
         
-        ListNode newListNode = mergeTwoLists2(l1, l2); 
+        ListNode newListNode = mergeTwoLists(l1, l2); 
         while(newListNode != null) {
-            System.out.println(newListNode.val);
+            System.out.print(newListNode.val);
             newListNode = newListNode.next;
         }
+        System.out.println();
+        while(l1 != null) {
+            System.out.print(l1.val);
+            l1 = l1.next;
+        }
+        System.out.println();
+        while(l2 != null) {
+            System.out.print(l2.val);
+            l2 = l2.next;
+        }
+        System.out.println();
     }
 }
 
