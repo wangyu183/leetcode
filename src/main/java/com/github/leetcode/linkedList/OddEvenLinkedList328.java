@@ -40,6 +40,9 @@ public class OddEvenLinkedList328 {
     }
     
     public ListNode oddEvenList2(ListNode head) {
+        if(head == null) {
+            return head;
+        }
         ListNode odd = head;
         ListNode even = head.next;
         ListNode evenHandler = even;
